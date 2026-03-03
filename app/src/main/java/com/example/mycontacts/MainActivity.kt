@@ -16,7 +16,14 @@ val address = "70 Ice Cream Road, Cape Town"
 val isMale = false
 val dayOfBirth = "15"
 val monthOfBirth = "June"
-val yearOfBirth = "2007"        
+val yearOfBirth = "2007"
+        println(firstName)
+        println(lastName)
+        println(address)
+        println(isMale)
+        println(dayOfBirth)
+        println(monthOfBirth)
+        println(yearOfBirth)
 
 
 
