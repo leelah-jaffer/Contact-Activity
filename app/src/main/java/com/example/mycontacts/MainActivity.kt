@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
+
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 val firstName = "Leelah"
@@ -23,10 +27,37 @@ val address = "Cape Town"
 val isMale = false
 val dayOfBirth = "15"
 val monthOfBirth = "June"
-val yearOfBirth = "2007"
+val yearOfBirth = 2007
        Log.d(
            "Good Morning",firstName+"" + lastName+"from"+address+", you are a"+isMale+
                    "and you're born on"+dayOfBirth+"" + monthOfBirth+"" + yearOfBirth)
+
+// the current year
+val currentYear = 2026
+
+// Calculate age
+val age = currentYear - yearOfBirth
+
+// Years until 100
+val yearsUntil100 = 100 - age
+
+// Age in months
+val ageInMonths = age * 12
+
+// Age in days (skip leap years)
+val ageInDays = age * 365
+
+// Remainder when age divided by 5
+val remainder = age % 5
+
+        Log.d("ContactActivity", "Current Age: $age")
+        Log.d("ContactActivity", "Years until 100: $yearsUntil100")
+        Log.d("ContactActivity", "Age in Months: $ageInMonths")
+        Log.d("ContactActivity", "Age in Days (no leap years): $ageInDays")
+        Log.d("ContactActivity", "Remainder when age ÷ 5: $remainder")
+
+
+
 
 
 
