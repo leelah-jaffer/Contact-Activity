@@ -50,19 +50,16 @@ val ageInDays = age * 365
 // Remainder when age divided by 5
 val remainder = age % 5
 
-        Log.d("ContactActivity", "Current Age: $age")
-        Log.d("ContactActivity", "Years until 100: $yearsUntil100")
-        Log.d("ContactActivity", "Age in Months: $ageInMonths")
-        Log.d("ContactActivity", "Age in Days (no leap years): $ageInDays")
-        Log.d("ContactActivity", "Remainder when age ÷ 5: $remainder")
+Log.d("ContactActivity","Current Age: $age")
+Log.d("ContactActivity", "Years until 100: $yearsUntil100")
+Log.d("ContactActivity", "Age in Months: $ageInMonths")
+Log.d("ContactActivity", "Age in Days (skip leap years): $ageInDays")
+Log.d("ContactActivity", "Remainder when age ÷ 5: $remainder" )
 
 
 
 
-
-
-
-
+        
 
 
         setContentView(R.layout.activity_main)
